@@ -5,12 +5,6 @@ export class Component {
     }
     this.targetElement = targetElement; // 렌더링할 DOM 요소
     this.state = state; // 초기 상태
-    this.init();
-  }
-
-  init() {
-    // 필요시 추가 구현
-    this.render();
   }
 
   setState(newState) {
